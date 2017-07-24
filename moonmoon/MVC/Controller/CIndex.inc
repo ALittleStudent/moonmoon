@@ -3,7 +3,8 @@
     {
         public function showindex()
         {
-            echo("fuck you!");
+            $this->setView("index");
+            $this->setVar("title","Moon Moon!");
         }
     }
     
